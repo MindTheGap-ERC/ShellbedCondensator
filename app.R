@@ -13,7 +13,7 @@ ui <- navbarPage(title=tags$b("The Shellbed Condensator"),
                             #### FP: Left Panel (Text) ####
                             column(8,
                           actionButton(inputId = "go_to_app",
-                                       label = tags$b("Click Here to Skip Introduction"),
+                                       label = tags$b("Click to Skip Introduction"),
                                        width = "30%"),
                           
                           #### FP: Left Panel/Main Text ####
