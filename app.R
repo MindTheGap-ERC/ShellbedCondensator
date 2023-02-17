@@ -175,7 +175,7 @@ https://doi.org/10.1017/pab.2015.30 target=\"_blank\" > doi.org/10.1017/pab.2015
                             ) ),
                     numericInput(inputId = "input_volume",
                                  label = "Shell Volume [# per m]",
-                                 value=0.01,
+                                 value=0.0,
                                  min = 0,
                                  step=0.01*0.01,
                                  max=0.1),
@@ -206,9 +206,9 @@ https://doi.org/10.1017/pab.2015.30 target=\"_blank\" > doi.org/10.1017/pab.2015
     ),
     #### AI: Middle Panel ####
     column(width=6,
-           tags$h3("Signal Through Time"),
+           tags$h3("Change with Time"),
            plotOutput("time_plot"),
-           tags$h3("Stratigraphic Expression"),
+           tags$h3("Stratigraphic Column"),
            plotOutput("height_plot"),
            tags$h3("Age Model"),
            plotOutput("age_model")
@@ -253,8 +253,8 @@ https://doi.org/10.1017/pab.2015.30 target=\"_blank\" > doi.org/10.1017/pab.2015
                      ),
                      selectInput("condensation_display_mode",
                                  "Display Sedimentary Condensation as",
-                                 choices = c("Formation Velocity of Section"="height",
-                                             "Time Content of Section"="condensation",
+                                 choices = c("Sediment accumulation [L/T]"="height",
+                                             "Condensation [L/M]"="condensation",
                                              "Do not Display"="section without sed info"),
                                  selected = "Formation Velocity of Section"),
                      #### AI: Right Panel/Slider Options ####
