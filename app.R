@@ -55,7 +55,7 @@ ui <- navbarPage(title=tags$b("The Shellbed Condensator"),
                             column(6,
                                    tags$h5(tags$b("Niklas Hohmann")),
                                    fluidRow(
-                                   column(5,img(src='niklas_hohmann.jpeg', alt="Picture of Niklas Hohmann",align = "left",width="100%")),
+                                   column(5,img(src='niklas_hohmann.jpg', alt="Picture of Niklas Hohmann",align = "left",width="100%")),
                                    column(7,
                                         div(style="margin-left: -4em",  tags$ul("PhD candidate", br(),
                                                     "Utrecht University, The Netherlands", br(),
