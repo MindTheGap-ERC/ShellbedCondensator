@@ -59,3 +59,13 @@ The app can be used online at [stratigraphicpaleobiology.shinyapps.io/shellbed_c
   - _people_ : Folder with pictures of authors
   - _logos_ : Folder with logos  
   - _geology_ : Folder with pictures of shell accumulations and stratigraphic columns
+
+## References
+
+The model underlying the app is described in
+
+- Hohmann, N.: Incorporating Information on Varying Sedimentation Rates in Paleontological Analyses. PALAIOS, 2021. [doi: 10.2110/palo.2020.038](https://doi.org/10.2110/palo.2020.038)
+
+## Funding
+
+Online access to the App is made available by the IDUB programme of Warsaw University
