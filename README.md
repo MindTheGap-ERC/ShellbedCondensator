@@ -27,7 +27,7 @@ Before usage, make sure the shiny package is installed (and install if necessary
 
 ``` R
 if (!require("shiny")) {
-    install.package("shiny")
+    install.packages("shiny")
 }
 ```
 
