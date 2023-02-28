@@ -68,4 +68,8 @@ The model underlying the app is described in
 
 ## Funding
 
-Online access to the App is made available by the IDUB programme of Warsaw University
+Online access to the App is made available by the IDUB programme of Warsaw University.
+This app is part of the ERC project "MindTheGap", PI Emilia Jarochowska.  
+<img src="www/logos/mind_the_gap_logo.png"
+     width="200"
+     alt="Mind the Gap logo">
