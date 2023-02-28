@@ -78,7 +78,7 @@ The app uses the shiny package:
 
 ## Funding
 
-Online access to the App is made available by the IDUB programme of Warsaw University.  
+Online access to the App is made possible by the IDUB programme of the University of Warsaw (Grant BOB-IDUB-622-18/2022).  
 Co-funded by the European Union (ERC, MindTheGap, StG project no 101041077). Views and opinions expressed are however those of the author(s) only and do not necessarily reflect those of the European Union or the European Research Council. Neither the European Union nor the granting authority can be held responsible for them.  
 <img src="www/logos/mind_the_gap_logo.png"
      width="200"
