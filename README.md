@@ -1,4 +1,4 @@
-# ShellbedCondensator
+# The Shellbed Condensator
 
 Shiny app to visualize the effects of changing sedimentation rates on formation of shell accumulations.
 
