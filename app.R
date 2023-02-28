@@ -1,6 +1,6 @@
 library(shiny)
-source("condensator_plot.R")
-source("condensator.R")
+source("src/condensator_plot.R")
+source("src/condensator.R")
 
 
 ui <- navbarPage(title=tags$b("The Shellbed Condensator"),
