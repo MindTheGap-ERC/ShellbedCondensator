@@ -128,7 +128,7 @@ https://doi.org/10.1017/pab.2015.30 target=\"_blank\" > doi.org/10.1017/pab.2015
                             column(3,
                                    img(src='logos/IDUB_logo.jpeg',alt="Logo of IDUB", width="30%",align = "left")),
                             column(3,
-                                   img(src='logos/dfg_logo.jpg',alt="Logo of DFG", width="70%",align = "left")),
+                                   img(src='logos/mind_the_gap_logo.png',alt="Logo of MindTheGap", width="70%",align = "left")),
                             column(3,
                                    img(src='logos/UU_logo.jpg', width="70%",alt="Logo of UU",align = "left"))
                           ),
@@ -287,7 +287,7 @@ https://doi.org/10.1017/pab.2015.30 target=\"_blank\" > doi.org/10.1017/pab.2015
     column(3,
            img(src='logos/IDUB_logo.jpeg',alt="Logo of IDUB", width="30%",align = "left")),
     column(3,
-           img(src='logos/dfg_logo.jpg',alt="Logo of DFG", width="70%",align = "left")),
+           img(src='logos/mind_the_gap_logo.png',alt="Logo of MindTheGap", width="70%",align = "left")),
     column(3,
            img(src='logos/UU_logo.jpg', width="70%",alt="Logo of UU",align = "left"))
   ),
