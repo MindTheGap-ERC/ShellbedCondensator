@@ -55,7 +55,7 @@ ui <- navbarPage(title=tags$b("The Shellbed Condensator"),
                             column(6,
                                    tags$h5(tags$b("Niklas Hohmann")),
                                    fluidRow(
-                                   column(5,img(src='niklas_hohmann.jpg', alt="Picture of Niklas Hohmann",align = "left",width="100%")),
+                                   column(5,img(src='people/niklas_hohmann.jpg', alt="Picture of Niklas Hohmann",align = "left",width="100%")),
                                    column(7,
                                         div(style="margin-left: -4em",  tags$ul("PhD candidate", br(),
                                                     "Utrecht University, The Netherlands", br(),
@@ -72,7 +72,7 @@ ui <- navbarPage(title=tags$b("The Shellbed Condensator"),
                 
                                    tags$h5(tags$b("Dr. Emilia Jarochowska")),
                                    fluidRow(
-                                   column(5,img(src='emilia_jarochowska.jpg', alt="Picture of Emilia Jarochowska",align = "left",width="100%")),
+                                   column(5,img(src='people/emilia_jarochowska.jpg', alt="Picture of Emilia Jarochowska",align = "left",width="100%")),
                                    column(7,div(style="margin-left: -4em",  tags$ul("Utrecht University, The Netherlands", br(),
                                                                                     "Email: e.b.jarochowska (at) uu.nl", br(),
                                                                                     HTML("Mastodon: <a href=https://circumstances.run/@Emiliagnathus target=\"_blank\" > @Emiliagnathus@circumstances.run </a>"), br(),
@@ -110,27 +110,27 @@ https://doi.org/10.1017/pab.2015.30 target=\"_blank\" > doi.org/10.1017/pab.2015
                           #### FP: Right Panel (figures) ####
                           column(4,
                                  tags$figure(
-                                 img(src="shellbed_portugal.jpg",alt="A shellbed",width="100%"),
+                                 img(src="geology/shellbed_portugal.jpg",alt="A shellbed",width="100%"),
                                  tags$figcaption("Fig. 1: A shell bed from the Miocene Lagos-Portimão Formation close to Lagos, southern Portugal.")),
                                  hr(),
                                  tags$figure(
-                                   img(src="shellbed_formation.jpg",alt="A shellbed",width="100%"),
+                                   img(src="geology/shellbed_formation.jpg",alt="A shellbed",width="100%"),
                                    tags$figcaption(HTML("Fig. 2: Hypothetical scenarios of shell accumulation in times of low or negative sedimentation rates. Modified after <a href=https://doi.org/10.1038/318457a0 target=\"_blank\" > Kidwell (1985)</a>."))),
                                  hr(),
-                                 tags$figure(img(src="crinoids_gotland.jpg",alt="A shellbed",width="100%"),
+                                 tags$figure(img(src="geology/crinoids_gotland.jpg",alt="A shellbed",width="100%"),
                                              tags$figcaption("Fig 3: An accumulation of crinoids stems in the Silurian of Gotland, Sweden."))
                                  )),
                           #### FP: Bottom/Logos ####
                           hr(),
                           fluidRow(
                             column(3,
-                                   img(src='UW_logo.svg',alt="Logo of UW", width="30%",align = "left")),
+                                   img(src='logos/UW_logo.svg',alt="Logo of UW", width="30%",align = "left")),
                             column(3,
-                                   img(src='IDUB_logo.jpeg',alt="Logo of IDUB", width="30%",align = "left")),
+                                   img(src='logos/IDUB_logo.jpeg',alt="Logo of IDUB", width="30%",align = "left")),
                             column(3,
-                                   img(src='dfg_logo.jpg',alt="Logo of DFG", width="70%",align = "left")),
+                                   img(src='logos/dfg_logo.jpg',alt="Logo of DFG", width="70%",align = "left")),
                             column(3,
-                                   img(src='UU_logo.jpg', width="70%",alt="Logo of UU",align = "left"))
+                                   img(src='logos/UU_logo.jpg', width="70%",alt="Logo of UU",align = "left"))
                           ),
                           hr()
                          
@@ -283,13 +283,13 @@ https://doi.org/10.1017/pab.2015.30 target=\"_blank\" > doi.org/10.1017/pab.2015
   hr(),
   fluidRow(
     column(3,
-           img(src='UW_logo.svg',alt="Logo of UW", width="30%",align = "left")),
+           img(src='logos/UW_logo.svg',alt="Logo of UW", width="30%",align = "left")),
     column(3,
-           img(src='IDUB_logo.jpeg',alt="Logo of IDUB", width="30%",align = "left")),
+           img(src='logos/IDUB_logo.jpeg',alt="Logo of IDUB", width="30%",align = "left")),
     column(3,
-           img(src='dfg_logo.jpg',alt="Logo of DFG", width="70%",align = "left")),
+           img(src='logos/dfg_logo.jpg',alt="Logo of DFG", width="70%",align = "left")),
     column(3,
-           img(src='UU_logo.jpg', width="70%",alt="Logo of UU",align = "left"))
+           img(src='logos/UU_logo.jpg', width="70%",alt="Logo of UU",align = "left"))
   ),
   hr()
     

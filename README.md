@@ -12,7 +12,9 @@ R package "shiny"
 ## Offline Usage
 Before usage, make sure the shiny package is installed (and install if necessary) by running the following lines in R
 ``` R
-if (!require("shiny")) install.package("shiny")
+if (!require("shiny")) {
+    install.package("shiny")
+}
 ```
 Then set your working directory to DIR where the file app.R is located:
 ```
