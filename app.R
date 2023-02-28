@@ -214,7 +214,7 @@ https://doi.org/10.1017/pab.2015.30 target=\"_blank\" > doi.org/10.1017/pab.2015
            plotOutput("time_plot"),
            tags$h3("Stratigraphic Column"),
            plotOutput("height_plot"),
-           tags$h3("Age Model"),
+           tags$h3("Age-Depth Model"),
            plotOutput("age_model")
     ),
     #### AI: Right Panel ####
@@ -257,10 +257,10 @@ https://doi.org/10.1017/pab.2015.30 target=\"_blank\" > doi.org/10.1017/pab.2015
                      ),
                      selectInput("condensation_display_mode",
                                  "Display Sedimentary Condensation as",
-                                 choices = c("Sediment accumulation [L/T]"="height",
-                                             "Condensation [L/M]"="condensation",
-                                             "Do not Display"="section without sed info"),
-                                 selected = "Formation Velocity of Section"),
+                                 choices = rev(c("Sediment accumulation [L/T]"="height",
+                                             "Condensation [T/L]"="condensation",
+                                             "Do not Display"="section without sed info")),
+                                 selected = "section without sed info"),
                      #### AI: Right Panel/Slider Options ####
                      wellPanel(
                                tags$h3("Slider Options"),
