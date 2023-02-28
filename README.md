@@ -7,7 +7,7 @@ Shiny app to visualize the effects of changing sedimentation rates on formation 
 __Niklas Hohmann__ (Maintainer)  
 Utrecht University  
 email: n.hohmann@uu.nl  
-Web page: [uu.nl/staff/NHohmann](uu.nl/staff/NHohmann)  
+Web page: [uu.nl/staff/NHohmann](https://www.uu.nl/staff/nhohmann)  
 Orcid: [0000-0003-1559-1838](https://orcid.org/0000-0003-1559-1838)
 
 __Emilia Jarochowska__, Utrecht University  
