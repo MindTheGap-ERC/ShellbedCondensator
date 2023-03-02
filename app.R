@@ -91,7 +91,8 @@ ui <- navbarPage(title=tags$b("The Shellbed Condensator"),
                           tags$h4("Code Availability"),
                           tags$p(HTML("The code for this app is available under <a href=https://github.com/NiklasHohmann/ShellbedCondensator target=\"_blank\" > github.com/NiklasHohmann/ShellbedCondensator </a> ")),
                           tags$h4("Funding"),
-                          tags$p("This project was supported by funds from the IDUB programme of the Polish Ministry of Science and Higher Education and from the Deutsche Forschungsgemeinschaft (DFG)."),
+                          tags$p("Online access to the App is made possible by the IDUB programme of the University of Warsaw (Grant BOB-IDUB-622-18/2022).
+Co-funded by the European Union (ERC, MindTheGap, StG project no 101041077). Views and opinions expressed are however those of the author(s) only and do not necessarily reflect those of the European Union or the European Research Council. Neither the European Union nor the granting authority can be held responsible for them."),
                           div(style="margin-top: 2em",tags$h4("References")),
                           tags$ul(
                             tags$li(HTML("Hohmann, N. (2018). Quantifying the Effects of Changing Deposition Rates and Hiatii on the Stratigraphic Distribution of Fossils. <i> Bachelor Thesis </i>, Friedrich-Alexander-Universität Erlangen-Nürnberg. <a href=https://doi.org/10.13140/RG.2.2.23372.51841 target=\"_blank\"> doi.org/10.13140/RG.2.2.23372.51841</a>")),
