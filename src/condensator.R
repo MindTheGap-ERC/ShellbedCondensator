@@ -5,7 +5,7 @@ condensator=function(xdep,
                      duration,
                      input_volume=0,
                      plot_options=NULL,
-                     suppress_errors=FALSE){
+                     suppress_errors=FALSE) {
   
   
 #### 0. Check Input ####
