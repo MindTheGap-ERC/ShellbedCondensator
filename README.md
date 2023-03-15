@@ -18,7 +18,7 @@ Orcid: [0000-0001-8937-9405](https://orcid.org/0000-0001-8937-9405)
 
 ## License
 
-Apache 2.0, see LICENSE.md file for details
+Apache 2.0, see LICENSE file for details
 
 ## Requirements
 
