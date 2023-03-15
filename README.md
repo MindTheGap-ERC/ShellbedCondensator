@@ -1,6 +1,6 @@
 # The Shellbed Condensator
 
-Shiny app to visualize the effects of changing sedimentation rates on formation of shell accumulations.
+Shiny app to visualize the effects of changing sedimentation rates on formation of fossil accumulations.
 
 ## Authors
 
