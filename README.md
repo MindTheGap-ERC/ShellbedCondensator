@@ -30,7 +30,7 @@ R package "shiny"
 Before usage, make sure the shiny package is installed (and install if necessary) by running the following lines in R
 
 ``` R
-if (!require("shiny")) {
+if (!require("shiny", quietly = TRUE)) {
     install.packages("shiny")
 }
 ```
@@ -53,9 +53,9 @@ The app can be used online at [stratigraphicpaleobiology.shinyapps.io/shellbed_c
 
 ## Repository structure
 
-- _LICENSE.md_ : MIT license text
+- _LICENSE.md_ : Apache 2.0 license text
 - _README.md_ : Readme file
-- _app.R_ : R code to start app
+- _app.R_ : R code to start app. Contains app architecture
 - _src_ : Folder for code
   - _condensator.R_ : Generates model outputs from user input
   - _condensator_plot.R_ : Generates plots from model outputs
@@ -78,7 +78,7 @@ The app uses the shiny package:
 
 ## Funding
 
-Online access to the App is made possible by the IDUB programme of the University of Warsaw (Grant BOB-IDUB-622-18/2022).  
+Online access to the Shellbed Condensator is made possible by the IDUB programme of the University of Warsaw (Grant BOB-IDUB-622-18/2022).  
 Co-funded by the European Union (ERC, MindTheGap, StG project no 101041077). Views and opinions expressed are however those of the author(s) only and do not necessarily reflect those of the European Union or the European Research Council. Neither the European Union nor the granting authority can be held responsible for them.  
 <img src="www/logos/mind_the_gap_logo.png"
      width="200"
