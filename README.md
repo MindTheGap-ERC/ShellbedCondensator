@@ -67,7 +67,7 @@ The app can be used online at [stratigraphicpaleobiology.shinyapps.io/shellbed_c
 
 ## Citation
 
-To cite the app, use
+To cite the app, please use
 
 - Hohmann, N., & Jarochowska, E. (2023). Shellbed Condensator (v1.0.0). Zenodo. [DOI: 10.5281/zenodo.7739986](https://doi.org/10.5281/zenodo.7739986)
 

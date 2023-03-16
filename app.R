@@ -125,7 +125,7 @@ ui <- navbarPage(
         tags$h4("How to Cite"),
         tags$p("To cite this app, please use the following references:"),
         tags$ul(
-          tags$li(HTML("Hohmann, N., & Jarochowska, E. (2023). Shellbed Condensator (v1.0.0). <i>Zenodo</i>. <a href='https://doi.org/10.5281/zenodo.7739986'> DOI: 10.5281/zenodo.7739986 </a> ")),
+          tags$li(HTML("Hohmann, N., & Jarochowska, E. (2023). Shellbed Condensator (v1.0.0). <i>Zenodo</i>. <a href='https://doi.org/10.5281/zenodo.7739986'> doi.org/10.5281/zenodo.7739986 </a> ")),
           tags$li(HTML("Hohmann, N. (2021). Incorporating Information on Varying Sedimentation Rates into Paleontological Analyses. <i> PALAIOS </i>, 36. <a href=https://doi.org/10.2110/palo.2020.038 target=\"_blank\" > doi.org/10.2110/palo.2020.038 </a>. ")),
           tags$li(HTML("Hohmann, N. (2020). R package \"DAIME\". <i>Comprehensive R Archive Network (CRAN)</i>. URL <a href=https://cran.r-project.org/web/packages/DAIME/index.html target=\"_blank\" > cran.r-project.org/web/packages/DAIME </a>, <a href=http://doi.org/10.5281/zenodo.3702552 target=\"_blank\" > doi.org/10.5281/zenodo.3702552 </a>"))
         ),
