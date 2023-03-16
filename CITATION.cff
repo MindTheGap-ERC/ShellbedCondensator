@@ -25,3 +25,6 @@ abstract: >-
   Shiny app to visualize the effects of changing
   sedimentation rates on formation of fossil accumulations.
 license: Apache-2.0
+commit: 516fac1
+version: v1.0.0
+date-released: '2023-03-16'
