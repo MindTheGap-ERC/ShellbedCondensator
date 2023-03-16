@@ -24,6 +24,24 @@ url: >-
 abstract: >-
   Shiny app to visualize the effects of changing
   sedimentation rates on formation of fossil accumulations.
+identifiers:
+  - description: "DOI to latest version"
+    type: doi
+    value: 10.5281/zenodo.7739986
+  - description: "DOI to v1.0.0"
+    type: doi
+    value: 10.5281/zenodo.7739987
+keywords:
+  - "Taphonomy"
+  - "Sedimentology"
+  - "Paleontology"
+  - "Palaeontology"
+  - "Paleobiology"
+  - "Palaeobiology"
+  - "R"
+  - "Shiny"
+  - "Geology"
+  - "Stratigraphy"
 license: Apache-2.0
 commit: 516fac1
 version: v1.0.0
