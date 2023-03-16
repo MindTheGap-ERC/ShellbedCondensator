@@ -55,6 +55,7 @@ The app can be used online at [stratigraphicpaleobiology.shinyapps.io/shellbed_c
 
 - _LICENSE.md_ : Apache 2.0 license text
 - _README.md_ : Readme file
+- _CITATION.cff_ : Citation info
 - _app.R_ : R code to start app. Contains app architecture
 - _src_ : Folder for code
   - _condensator.R_ : Generates model outputs from user input
@@ -63,6 +64,12 @@ The app can be used online at [stratigraphicpaleobiology.shinyapps.io/shellbed_c
   - _people_ : Folder with pictures of authors
   - _logos_ : Folder with logos  
   - _geology_ : Folder with pictures of shell accumulations and stratigraphic columns
+
+## Citation
+
+To cite the app, use
+
+- Hohmann, N., & Jarochowska, E. (2023). Shellbed Condensator (v1.0.0). Zenodo. [DOI: 10.5281/zenodo.7739986](https://doi.org/10.5281/zenodo.7739986)
 
 ## References
 
