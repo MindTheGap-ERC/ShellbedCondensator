@@ -27,18 +27,19 @@ R package "shiny"
 
 ## Offline Usage
 
-Before usage, make sure the shiny package is installed (and install if necessary) by running the following lines in R
+First, make sure that your working directory is set correctly. If you are using RStudio, go to _File -> Open Project_, then navigate to the ShellbedCondensator folder and open the ShellbedCondensator Rproject file (file ending _.Rproj_)  
+If you are not using RStudio, set your working directory _"DIR"_ to where the file _"app.R"_ is located using
+
+``` R
+setwd("DIR")
+```
+
+Second, make sure the _shiny_ package is installed and loaded by running the following in R:
 
 ``` R
 if (!require("shiny", quietly = TRUE)) {
     install.packages("shiny")
 }
-```
-
-Then set your working directory to "DIR" where the file app.R is located:
-
-``` R
-setwd("DIR")
 ```
 
 Now you can start the app using the command
