@@ -4,17 +4,17 @@ Shiny app to visualize the effects of changing sedimentation rates on formation 
 
 ## Authors
 
-__Niklas Hohmann__ (Maintainer)  
+__Niklas Hohmann__  (Maintainer)
 Utrecht University  
-email: n.hohmann [at] uu.nl  
-Web page: [uu.nl/staff/NHohmann](https://www.uu.nl/staff/nhohmann)  
-Orcid: [0000-0003-1559-1838](https://orcid.org/0000-0003-1559-1838)
+email: n.h.hohmann [at] uu.nl  
+Web page: [uu.nl/staff/NHohmann](https://www.uu.nl/staff/NHHohmann)  
+ORCID: [0000-0003-1559-1838](https://orcid.org/0000-0003-1559-1838)
 
 __Emilia Jarochowska__  
 Utrecht University  
 email: e.b.jarochowska [at] uu.nl  
-Web page: [uu.nl/staff/EBJarochowska](https://www.uu.nl/staff/EBJarochowska)  
-Orcid: [0000-0001-8937-9405](https://orcid.org/0000-0001-8937-9405)
+Web page: [www.uu.nl/staff/EBJarochowska](https://www.uu.nl/staff/EBJarochowska)  
+ORCID: [0000-0001-8937-9405](https://orcid.org/0000-0001-8937-9405)
 
 ## License
 
@@ -84,10 +84,8 @@ The app uses the shiny package:
   (2022). _shiny: Web Application Framework for R_. R package version 1.7.3,
   <https://CRAN.R-project.org/package=shiny>.
 
-## Funding
+## Funding information
 
-Online access to the Shellbed Condensator is made possible by the IDUB programme of the University of Warsaw (Grant BOB-IDUB-622-18/2022).  
-Co-funded by the European Union (ERC, MindTheGap, StG project no 101041077). Views and opinions expressed are however those of the author(s) only and do not necessarily reflect those of the European Union or the European Research Council. Neither the European Union nor the granting authority can be held responsible for them.  
-<img src="www/logos/mind_the_gap_logo.png"
-     width="200"
-     alt="Mind the Gap logo">
+Online access to the App is made possible by the IDUB programme of the University of Warsaw (Grant BOB-IDUB-622-18/2022).  
+Co-funded by the European Union (ERC, MindTheGap, StG project no 101041077). Views and opinions expressed are however those of the author(s) only and do not necessarily reflect those of the European Union or the European Research Council. Neither the European Union nor the granting authority can be held responsible for them.
+![European Union and European Research Council logos](https://erc.europa.eu/sites/default/files/2023-06/LOGO_ERC-FLAG_FP.png)
