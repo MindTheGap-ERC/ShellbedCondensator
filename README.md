@@ -1,5 +1,8 @@
 # The Shellbed Condensator
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7740309.svg)](https://doi.org/10.5281/zenodo.7740309)
+[![fair-software.eu](https://img.shields.io/badge/fair--software.eu-%E2%97%8F%20%20%E2%97%8F%20%20%E2%97%8B%20%20%E2%97%8F%20%20%E2%97%8B-orange)](https://fair-software.eu)
+
 Shiny app to visualize the effects of changing sedimentation rates on formation of fossil accumulations.
 
 ## Authors
@@ -16,41 +19,27 @@ email: e.b.jarochowska [at] uu.nl
 Web page: [www.uu.nl/staff/EBJarochowska](https://www.uu.nl/staff/EBJarochowska)  
 ORCID: [0000-0001-8937-9405](https://orcid.org/0000-0001-8937-9405)
 
-## License
-
-Apache 2.0, see LICENSE file for details
-
 ## Requirements
 
-R version 3.0.2 or higher  
-R package "shiny"
-
-## Offline Usage
-
-First, make sure that your working directory is set correctly. If you are using RStudio, go to _File -> Open Project_, then navigate to the ShellbedCondensator folder and open the ShellbedCondensator Rproject file (file ending _.Rproj_)  
-If you are not using RStudio, set your working directory _"DIR"_ to where the file _"app.R"_ is located using
-
-``` R
-setwd("DIR")
-```
-
-Second, make sure the _shiny_ package is installed and loaded by running the following in R:
-
-``` R
-if (!require("shiny", quietly = TRUE)) {
-    install.packages("shiny")
-}
-```
-
-Now you can start the app using the command
-
-``` R
-shiny::runApp()
-```
+R (version >= 3.0.2), RStudio IDE.  
 
 ## Online Usage
 
 The app can be used online at [stratigraphicpaleobiology.shinyapps.io/shellbed_condensator](https://stratigraphicpaleobiology.shinyapps.io/shellbed_condensator/). Online usage does not require an installation of R.
+
+## Offline Usage
+
+Open the file _ShellbedCondensator.Rproj_ in the RStudio IDE. This will open the RProject, and install the `renv` package (if not already installed). Then run
+
+```R
+renv::restore()
+```
+
+in the console to install all dependencies required for the app. To run the app, use
+
+```R
+shiny::runApp()
+```
 
 ## Repository structure
 
@@ -58,6 +47,9 @@ The app can be used online at [stratigraphicpaleobiology.shinyapps.io/shellbed_c
 - _README.md_ : Readme file
 - _CITATION.cff_ : Citation info
 - _app.R_ : R code to start app. Contains app architecture
+- _renv.lock_ : lockfile for `renv` package
+- _zenodo.json_ : Zenodo metadata
+- _renv_ : folder for `renv` package
 - _src_ : Folder for code
   - _condensator.R_ : Generates model outputs from user input
   - _condensator_plot.R_ : Generates plots from model outputs
@@ -65,6 +57,11 @@ The app can be used online at [stratigraphicpaleobiology.shinyapps.io/shellbed_c
   - _people_ : Folder with pictures of authors
   - _logos_ : Folder with logos  
   - _geology_ : Folder with pictures of shell accumulations and stratigraphic columns
+- _.github_ : GitHub actions
+
+## License
+
+Apache 2.0, see LICENSE file for details
 
 ## Citation
 
