@@ -1,5 +1,7 @@
 # The Shellbed Condensator
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7740309.svg)](https://doi.org/10.5281/zenodo.7740309)
+
 Shiny app to visualize the effects of changing sedimentation rates on formation of fossil accumulations.
 
 ## Authors
@@ -45,7 +47,7 @@ shiny::runApp()
 - _CITATION.cff_ : Citation info
 - _app.R_ : R code to start app. Contains app architecture
 - _renv.lock_ : lockfile for `renv` package
-* _zenodo.json_ : Zenodo metadata
+- _zenodo.json_ : Zenodo metadata
 - _renv_ : folder for `renv` package
 - _src_ : Folder for code
   - _condensator.R_ : Generates model outputs from user input
