@@ -1,6 +1,7 @@
 # The Shellbed Condensator
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7740309.svg)](https://doi.org/10.5281/zenodo.7740309)
+[![fair-software.eu](https://img.shields.io/badge/fair--software.eu-%E2%97%8F%20%20%E2%97%8F%20%20%E2%97%8B%20%20%E2%97%8F%20%20%E2%97%8B-orange)](https://fair-software.eu)
 
 Shiny app to visualize the effects of changing sedimentation rates on formation of fossil accumulations.
 
