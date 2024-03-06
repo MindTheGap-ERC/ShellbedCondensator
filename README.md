@@ -56,6 +56,7 @@ shiny::runApp()
   - _people_ : Folder with pictures of authors
   - _logos_ : Folder with logos  
   - _geology_ : Folder with pictures of shell accumulations and stratigraphic columns
+- _.github_ : GitHub actions
 
 ## License
 
