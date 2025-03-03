@@ -25,7 +25,7 @@ R (version >= 3.0.2), RStudio IDE.
 
 ## Online Usage
 
-The app can be used online at [stratigraphicpaleobiology.shinyapps.io/shellbed_condensator](https://stratigraphicpaleobiology.shinyapps.io/shellbed_condensator/). Online usage does not require an installation of R.
+The app can be used online at [utrecht-university.shinyapps.io/ShellbedCondensator](https://utrecht-university.shinyapps.io/ShellbedCondensator/). Online usage does not require an installation of R.
 
 ## Offline Usage
 
